@@ -82,7 +82,7 @@ nav{
 }
 .two{
     top: 150px;
-    left: 350;
+    left: 350px;
     /*alignment so content upright when visible*/
     transform: rotate(-90deg); 
 }
