@@ -15,18 +15,47 @@
             </div>
             <div class="nav-links"> <!--div for navigation links-->
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="about.html">About Me</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="work.html">Work</a></li>
-                    <li><a href="contact.html">Conact Me</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
-        </div>
-
         <div class="information">
             <div class="overlay"></div>
-        </div>
+            
+        </div> <!--end of information-->
+        <div class="wrapper"> <!--parent container=main-->
+            <form action="results.html" method="GET">
+                <!--<label for="name">Name</label> 
+                    omit label for now? Filler text instead?-->
+                <div> <!-- can use divs to seperate into individual line-->
+                    <label for="text">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </label>
+                </div> 
+                <div>
+                    <label for="email">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </label>
+                </div> 
+                <div> 
+                    <label for="subject">
+                        <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    </label>
+                </div> 
+                <div> 
+                    <label for="message">
+                        <textarea name="message" id="message" placeholder="Message" required></textarea>
+                    </label>
+                </div> 
+                <button type="submit">Submit</button>
+            </form>
+        </div><!--end of wrapper-->
+    </div> <!--end of class main-->
+
+
 </body>
 </html>
