@@ -28,7 +28,8 @@
             
         </div> <!--end of information-->
         <div class="wrapper"> <!--parent container=main-->
-            <form action="results.html" method="GET">
+            <!--<form action="results.html" method="GET"> -->
+            <form action="https://formsubmit.co/andrewkang1106@gmail.com" method="POST">
                 <!--<label for="name">Name</label> 
                     omit label for now? Filler text instead?-->
                 <div> <!-- can use divs to seperate into individual line-->
@@ -48,9 +49,10 @@
                 </div> 
                 <div> 
                     <label for="message">
-                        <textarea name="message" id="message" placeholder="Message" required></textarea>
+                        <textarea name="message" id="message" placeholder="Write Your Message Here" required></textarea>
                     </label>
                 </div> 
+                <input type="hidden" name="_next" value="https://andrew-kang.com/thankyou.html">
                 <button type="submit">Submit</button>
             </form>
         </div><!--end of wrapper-->
