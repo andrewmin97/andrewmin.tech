@@ -19,16 +19,14 @@
 nav{
     width: 80%;
     position: sticky;
-    margin: 20px auto;
+    margin: 2vw auto;
     z-index: 1;
     display: flex;
     align-items: center;
 }
-.logo{
-    flex-basis: 20%;
-}
-.logo img{
-    width: 150px;
+#logo{
+    width: 30px;
+    z-index: 1;
 }
 .nav-links{
     flex: 1;
@@ -36,14 +34,16 @@ nav{
 }
 .nav-links ul li{
     list-style: none;
-    display: inline-block;
-    margin: 0 20px;
+    display:inline-flex;
+    margin: 0 1vw;
 }
-
  /*a for anchor type*/
 .nav-links ul li a{
-    color:#fff;
+    color:black;
     text-decoration: none;
+}
+.nav-links ul li a:hover{
+    color: grey;
 }
 .information{
     width: 1000px;
@@ -106,7 +106,6 @@ nav{
     transform: rotate(-270deg);
 
 }
-/*This could be an image of me? After all, it is MY page*/
 .middleImage{ 
     width: 200px;
     position: absolute;
@@ -149,8 +148,9 @@ nav{
     position: absolute;
     z-index: 0;
 }
+/*contact form*/
 .wrapper{
-    width: 400px;
+    width: 350px;
     max-width: 90%;
     margin: 0 auto; /*0 is above/below& auto centers L&R within parent containter.*/ 
     position: relative;
@@ -189,3 +189,31 @@ nav{
     background-color: white;
     width: 4em;
 }
+/*end of contact form*/
+/*thank you page*/
+#thankyou{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    position: relative;
+
+}
+#thankyou h1{
+    color: white;
+    align-self: center;
+    font-size: 40px;
+}
+#thankyou p{
+    font-size: 20px;
+    color: white;
+    align-self: center;
+}
+/*end of thank you page*/
+  @media only screen and (max-width: 700px) {
+
+
+  }
+  @media only screen and (min-width: 768px) {
+
+
+  }

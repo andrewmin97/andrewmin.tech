@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Contact Me</title>
     <link rel="stylesheet" href="styles/style.css">
+    
 </head>
 <body>
     <div class="main"> <!--basic/main layout-->
         <nav>
-            <div class="logo">
-                <img src="images/amc.jpg">
-            </div>
-            <div class="nav-links"> <!--div for navigation links-->
+            <a href="/"><img src="images/menu.png" id="logo"></a>
+            <div class="nav-links" id="myNavLinks"> <!--div for navigation links-->
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Me</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="work.html">Work</a></li>
@@ -24,11 +23,10 @@
             </div>
         </nav>
         <div class="information">
-            <div class="overlay"></div>
-            
+<!--            <div class="overlay"></div>
+-->        
         </div> <!--end of information-->
         <div class="wrapper"> <!--parent container=main-->
-            <!--<form action="results.html" method="GET"> -->
             <form action="https://formsubmit.co/ce4da63e9540749ebdd7421aa3d609bc" method="POST">
                 <!--<label for="name">Name</label> 
                     omit label for now? Filler text instead?-->
@@ -58,6 +56,7 @@
             </form>
         </div><!--end of wrapper-->
     </div> <!--end of class main-->
-
+    <script type="text/javascript" src="scripts/app.js"></script>
+    
 </body>
 </html>

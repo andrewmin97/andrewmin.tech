@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Andrew's Site</title>
     <!--<link href="fonts\VCR_OSD_MONO_1.001.ttf" rel="stylesheet">-->
     <link rel="stylesheet" href="styles/style.css">
@@ -13,12 +14,10 @@
 <body>
     <div class="main"> <!--basic/main layout-->
         <nav>
-            <div class="logo"> <!--Currently doesn't show on IE...Why?-->
-                <img src="images/amc.jpg">
-            </div>
-            <div class="nav-links"> <!--div for navigation links-->
-                <ul>
-                    <li><a href="/">Home</a></li>
+            <a href="/"><img src="images/menu.png" id="logo"></a>
+            <div class="nav-links" id="myNavLinks"> <!--div for navigation links-->
+                <ul id>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Me</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="work.html">Work</a></li>
