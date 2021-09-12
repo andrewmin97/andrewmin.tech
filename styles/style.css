@@ -85,7 +85,7 @@ nav{
 }
 .feature div p{ 
     margin-top: 8px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .feature div a:hover{
     color:black;
