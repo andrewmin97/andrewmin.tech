@@ -80,12 +80,17 @@ nav{
     margin-left: 30px;
 }
 .feature div a{
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
 }
 .feature div p{ 
     margin-top: 8px;
+    text-decoration: underline;
 }
+.feature div a:hover{
+    color:black;
+}
+
 .one{
     top: 450px;
     right: 50px;
