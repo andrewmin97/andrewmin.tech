@@ -19,13 +19,14 @@
 nav{
     width: 80%;
     position: sticky;
-    margin: 2vw auto;
+    margin: 1vw auto;
     z-index: 1;
     display: flex;
     align-items: center;
 }
 #logo{
     width: 30px;
+    height: 30px;
     z-index: 1;
 }
 .nav-links{
@@ -158,11 +159,18 @@ nav{
 }
 /*contact form*/
 .wrapper{
+    display: flex;
+    height: calc(100vh - 10vh - 68px);
+
+    align-items: center;
     width: 350px;
     max-width: 90%;
-    margin: 0 auto; /*0 is above/below& auto centers L&R within parent containter.*/ 
+    margin: 4vw auto; /*0 is above/below& auto centers L&R within parent containter.*/ 
     position: relative;
     z-index: 1;
+}
+.wrapper form{
+    width: inherit;
 }
 .wrapper label{
     display: block;
@@ -201,19 +209,21 @@ nav{
 /*thank you page*/
 #thankyou{
     display: flex;
+    height: calc(100vh - 8vh - 68px);
     flex-direction: column;
     flex-basis: 50%;
     position: relative;
-
+    border: 1px solid black;
+    justify-content: center;
 }
 #thankyou h1{
-    color: white;
+    color: black;
     align-self: center;
     font-size: 40px;
 }
 #thankyou p{
     font-size: 20px;
-    color: white;
+    color: black;
     align-self: center;
 }
 /*end of thank you page*/
