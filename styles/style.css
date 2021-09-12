@@ -79,6 +79,10 @@ nav{
 .feature div{ 
     margin-left: 30px;
 }
+.feature div a{
+    text-decoration: underline;
+    color: white;
+}
 .feature div p{ 
     margin-top: 8px;
 }
@@ -97,7 +101,6 @@ nav{
     left: 50px;
     /*alignment so content upright when visible*/
     transform: rotate(-180deg);
-
 }
 .four{
     bottom: 150px;

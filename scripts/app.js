@@ -2,7 +2,10 @@
 var circle = document.getElementById("circle");
 var upBtn = document.getElementById("upBtn");
 var downBtn = document.getElementById("downBtn");
-
+var img1 = document.getElementById("img1");
+var img2 = document.getElementById("img2");
+var img3 = document.getElementById("img3");
+var img4 = document.getElementById("img4");
 var rotateValue = circle.style.transform;
 var rotateSum;
 
