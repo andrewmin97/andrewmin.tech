@@ -245,11 +245,11 @@ nav{
 
 .project{
     padding-top: 60px;
+    padding-bottom: 60px;
     flex-basis: 50%;
     max-width: 35%;
     max-height: 46%;
     min-width: 300px;
-    overflow: hidden;
 }
 .project a{
     color:black;
@@ -267,7 +267,7 @@ nav{
 }
 
 .p-description{
-    height: 122px;
+    height: 122px;    
 }
 .p-description p{
     font-size: 16px;
