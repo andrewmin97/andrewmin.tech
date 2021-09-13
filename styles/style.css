@@ -213,7 +213,7 @@ nav{
     flex-direction: column;
     flex-basis: 50%;
     position: relative;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     justify-content: center;
 }
 #thankyou h1{
@@ -227,9 +227,62 @@ nav{
     align-self: center;
 }
 /*end of thank you page*/
+
+/*Beginning of work page*/
+.project-container{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    flex-basis: auto;
+    justify-content: center;
+    height: inherit;
+    border: 1px solid black;
+    gap: 60px;
+    overflow-y: scroll;
+}
+
+.project{
+    padding-top: 60px;
+    flex-basis: 50%;
+    max-width: 35%;
+    max-height: 46%;
+    min-width: 300px;
+    overflow: hidden;
+}
+.project a{
+    color:black;
+    text-decoration: none;
+}
+.project a:hover{
+    color: grey;
+}
+
+.project img{
+    max-height: 70%;
+    max-width: 100%;
+    min-height: 70%;
+    object-fit: contain;
+}
+
+.p-description{
+    height: 122px;
+}
+.p-description p{
+    font-size: 16px;
+}
+/*End of work page*/
+
+
+
+
   @media only screen and (max-width: 700px) {
-
-
+    .project img{
+        max-height: 70%;
+        max-width: 100%;;
+        object-fit: contain;
+    }
   }
   @media only screen and (min-width: 768px) {
 
