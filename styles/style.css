@@ -207,14 +207,18 @@ nav{
 }
 /*end of contact form*/
 /*thank you page*/
+.container-1{
+    display: flex;
+    justify-content: center;
+}
 #thankyou{
     display: flex;
     height: calc(100vh - 8vh - 68px);
     flex-direction: column;
-    flex-basis: 50%;
-    position: relative;
+    position: absolute;
     /*border: 1px solid black;*/
     justify-content: center;
+    z-index: 1;
 }
 #thankyou h1{
     color: black;
@@ -241,7 +245,6 @@ nav{
     gap: 60px;
     overflow-y: scroll;
 }
-
 .project{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -257,14 +260,12 @@ nav{
 .project a:hover{
     color: grey;
 }
-
 .project img{
     max-height: 70%;
     max-width: 100%;
     min-height: 70%;
     object-fit: contain;
 }
-
 .p-description{
     height: 122px;    
 }
@@ -273,9 +274,45 @@ nav{
 }
 /*End of work page*/
 
+/*Beginning of about me page*/
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+#aboutme{
+    display: flex;
+    height: calc(100vh - 8vh - 68px);
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    z-index: 1;
+}
+#aboutme a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#aboutme a:hover{
+    color: grey;
+}
+#aboutme b{
+    font-size: 30px;
+}
+#aboutme h1{
+    color: black;
+    align-self: left;
+    font-size: 40px;
+    text-decoration: underline;
+}
+#aboutme p{
+    font-size: 26px;
+    color: black;
+    align-self: left;
+}
+/*End of About me page*/
 
 
-
+/*Reponsive Design*/
   @media only screen and (max-width: 700px) {
     .project img{
         max-height: 70%;
