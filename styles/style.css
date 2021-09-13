@@ -238,7 +238,6 @@ nav{
     flex-basis: auto;
     justify-content: center;
     height: inherit;
-    border: 1px solid black;
     gap: 60px;
     overflow-y: scroll;
 }
