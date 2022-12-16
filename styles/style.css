@@ -9,6 +9,26 @@
     /**/
     /*font-family: "VCROSDMono";*/
 }
+/* width */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
 .main{
     width: 100%;
     height: 100vh;
@@ -244,6 +264,7 @@ nav{
     height: inherit;
     gap: 60px;
     overflow-y: scroll;
+    margin-bottom: 20vh;
 }
 .project{
     padding-top: 60px;
@@ -267,7 +288,8 @@ nav{
     object-fit: contain;
 }
 .p-description{
-    height: 122px;    
+    height: 122px; 
+    margin-bottom: 10%;   
 }
 .p-description p{
     font-size: 16px;
@@ -286,6 +308,7 @@ nav{
     position: absolute;
     justify-content: center;
     z-index: 1;
+    overflow-y: scroll;
 }
 #aboutme a{
     text-decoration: none;
@@ -305,9 +328,17 @@ nav{
     text-decoration: underline;
 }
 #aboutme p{
-    font-size: 26px;
+    font-size: 20px;
     color: black;
     align-self: left;
+}
+.container-2 img{
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    border:2px;
+    margin-top: 15vh;
+    border-color: red;
 }
 /*End of About me page*/
 
