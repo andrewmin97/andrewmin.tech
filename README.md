@@ -6,7 +6,7 @@ This site (currently a work in progress)
 * will in and of itself showcase my skill and will also primarily serve to showcase myself, work, and projects.
 
 ## URL
-www.andrew-kang.com
+www.andrewmin.tech
 
 ## Author
 Andrew Kang
