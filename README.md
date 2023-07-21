@@ -9,4 +9,4 @@ This site (currently a work in progress)
 www.andrewmin.tech
 
 ## Author
-Andrew Kang
+Andrew Min
