@@ -252,28 +252,39 @@ nav{
 }
 /*end of thank you page*/
 
-/*Beginning of work page*/
-.project-container{
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    flex-basis: auto;
-    justify-content: center;
-    height: inherit;
-    gap: 60px;
-    overflow-y: scroll;
-    margin-bottom: 20vh;
+/* Beginning of work page */
+.project-container {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  height: inherit;
+  gap: 60px;
+  overflow: auto; /* Allow both horizontal and vertical scrolling */
+  margin-bottom: 20vh;
+  padding-bottom: 20px; /* Add padding to prevent content from getting cut off at the bottom */
+  width: 100vw;
 }
-.project{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    flex-basis: 50%;
-    max-width: 35%;
-    max-height: 46%;
-    min-width: 300px;
+
+.project {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  flex-basis: 50%;
+  max-width: 35%;
+  max-height: 46%;
+  min-width: 300px;
+  /* Add other project-specific styling as needed */
 }
+
+.projectWrapper {
+  display: flex;
+  flex-direction: column; /* Stack projects vertically within the container */
+  align-items: center; /* Center projects horizontally within the container */
+  max-width: 100%;
+}
+
 .project a{
     color:black;
     text-decoration: none;
